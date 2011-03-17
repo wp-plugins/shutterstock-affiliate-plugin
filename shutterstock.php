@@ -5,7 +5,7 @@ Plugin URI: http://www.gutewolke.com/shutterstock
 Description: The Shutterstock Affiliate Plugin is designed to help affiliates earn money by introducing new customers to Shutterstock. Use this plugin to easily show search results from Shutterstock Images on a WordPress search results page, or on any post or page within your Wordpress site. When customers follow links from those images and make a purchase at Shutterstock, you’ll earn highly competitive, 20% commissions—up to $200 per successful referral. You must be a member of the <a href="http://affiliate.shutterstock.com/" title="Shutterstock Affiliate Program" target="_blank">Shutterstock Affiliate program</a> and have a Shutterstock API key to use this plugin.
 
 Version: 1.0
-Author: GuteWolke and wpdevelop
+Author: Shutterstock, GuteWolke and wpdevelop
 Author URI: http://www.gutewolke.com
 Tested WordPress Versions: 3.1
 */
@@ -17,16 +17,16 @@ Tested WordPress Versions: 3.1
 T O D O   List:
 -----------------------------------------------
 
- 
- 
- 
- 
- 
- 
- 
- 
+1. Creation of plugin framework with interfaces - 2 days.
+2. Creation settings page (only saving info and web page at WordPress admin panel) - 1 day
+3. Connection to API from settings page - 4 hours
+4. Frontend search page hooks, for integration of search results - 4 hours (We need to define at search.php file some elements, which is exist by default, its mean that we are know for sure that some div with specific ID is exist there, or we need to define at settings page the id of this element, otherwise its not very clear will be where is insert search images results !!! )
+5. Search requests to plugin API with diferent parameters  - 1 day
+6. Connection point 5. to point 4 - showing search results at search page. - 2 days
+7. Showing of selected image page - 2 days  (is it have to be new page or ajax showing at the same page ?)
+8. Showing search results for new shortcodes inside of posts or pages - 1 day
 
- 
+( 1 day = 8 hours )
 
 
 Frontend on Wordpress Blog or Page
@@ -73,14 +73,14 @@ Use the same design from the Microstock Photo Plugin for the Admin page.
     if (!defined('WP_SHUTTER_DEBUG_MODE'))    define('WP_SHUTTER_DEBUG_MODE',  false );
     if (!defined('WPDEV_SHUTTER_FILE'))       define('WPDEV_SHUTTER_FILE',  __FILE__ );
 
-    if (!defined('WP_CONTENT_DIR'))      define('WP_CONTENT_DIR', ABSPATH . 'wp-content');                    
-    if (!defined('WP_CONTENT_URL'))      define('WP_CONTENT_URL', site_url() . '/wp-content');     
-    if (!defined('WP_PLUGIN_DIR'))       define('WP_PLUGIN_DIR', WP_CONTENT_DIR . '/plugins');      
-    if (!defined('WP_PLUGIN_URL'))       define('WP_PLUGIN_URL', WP_CONTENT_URL . '/plugins');               
-    if (!defined('WPDEV_SHUTTER_PLUGIN_FILENAME'))  define('WPDEV_SHUTTER_PLUGIN_FILENAME',  basename( __FILE__ ) );              
-    if (!defined('WPDEV_SHUTTER_PLUGIN_DIRNAME'))   define('WPDEV_SHUTTER_PLUGIN_DIRNAME',  plugin_basename(dirname(__FILE__)) ); 
-    if (!defined('WPDEV_SHUTTER_PLUGIN_DIR')) define('WPDEV_SHUTTER_PLUGIN_DIR', WP_PLUGIN_DIR.'/'.WPDEV_SHUTTER_PLUGIN_DIRNAME ); 
-    if (!defined('WPDEV_SHUTTER_PLUGIN_URL')) define('WPDEV_SHUTTER_PLUGIN_URL', WP_PLUGIN_URL.'/'.WPDEV_SHUTTER_PLUGIN_DIRNAME );  
+    if (!defined('WP_CONTENT_DIR'))      define('WP_CONTENT_DIR', ABSPATH . 'wp-content');                   // Z:\home\test.wpdevelop.com\www/wp-content
+    if (!defined('WP_CONTENT_URL'))      define('WP_CONTENT_URL', site_url() . '/wp-content');    // http://test.wpdevelop.com/wp-content
+    if (!defined('WP_PLUGIN_DIR'))       define('WP_PLUGIN_DIR', WP_CONTENT_DIR . '/plugins');               // Z:\home\test.wpdevelop.com\www/wp-content/plugins
+    if (!defined('WP_PLUGIN_URL'))       define('WP_PLUGIN_URL', WP_CONTENT_URL . '/plugins');               // http://test.wpdevelop.com/wp-content/plugins
+    if (!defined('WPDEV_SHUTTER_PLUGIN_FILENAME'))  define('WPDEV_SHUTTER_PLUGIN_FILENAME',  basename( __FILE__ ) );              // menu-compouser.php
+    if (!defined('WPDEV_SHUTTER_PLUGIN_DIRNAME'))   define('WPDEV_SHUTTER_PLUGIN_DIRNAME',  plugin_basename(dirname(__FILE__)) ); // menu-compouser
+    if (!defined('WPDEV_SHUTTER_PLUGIN_DIR')) define('WPDEV_SHUTTER_PLUGIN_DIR', WP_PLUGIN_DIR.'/'.WPDEV_SHUTTER_PLUGIN_DIRNAME ); // Z:\home\test.wpdevelop.com\www/wp-content/plugins/menu-compouser
+    if (!defined('WPDEV_SHUTTER_PLUGIN_URL')) define('WPDEV_SHUTTER_PLUGIN_URL', WP_PLUGIN_URL.'/'.WPDEV_SHUTTER_PLUGIN_DIRNAME ); // http://test.wpdevelop.com/wp-content/plugins/menu-compouser
 
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
