@@ -1,16 +1,16 @@
 === Shutterstock Affiliate Plugin ===
-Contributors: Shutterstock-Images, Amosnet, WPDevelop
+Contributors: Shutterstock Images, Amosnet, WPDevelop
 Donate link: http://affiliate.shutterstock.com/
 Tags: Shutterstock, Affiliate, Stock Photo, Royalty Free, Microstock, Subscription, Stock Photography, Plugin,
 Requires at least: 2.7
 Tested up to: 3.1
 Stable tag: 1.0
 
-Earn money by introducing new customers to Shutterstock. Easily show search results from Shutterstock-Images on a WordPress search results page.
+Earn money by introducing new customers to Shutterstock. Easily show search results from Shutterstock Images on a WordPress search results page.
 
 == Description ==
 
-The Shutterstock Affiliate Plugin is designed to help affiliates earn money by introducing new customers to Shutterstock. Use this plugin to easily show search results from Shutterstock-Images on a WordPress search results page, or any every post or page within your Wordpress site. When customers follow links from those images and make a purchase at Shutterstock, you will earn highly competitive, 20% commissions up to $200 per successful referral. You must be a member of the Shutterstock Affiliate program and have a Shutterstock API key to use this plugin.
+The Shutterstock Affiliate Plugin is designed to help affiliates earn money by introducing new customers to Shutterstock. Use this plugin to easily show search results from Shutterstock Images on a WordPress search results page, or any every post or page within your Wordpress site. When customers follow links from those images and make a purchase at Shutterstock, you will earn highly competitive, 20% commissions up to $200 per successful referral. You must be a member of the Shutterstock Affiliate program and have a Shutterstock API key to use this plugin.
 
 = Key features =* Show Shutterstock image search results in addition to, or in place of, the regular WordPress search results.* Show Shutterstock Image search results on any Wordpress post or page using a simple text string.* Highly customizable search results, including sort order, image types, images per page, thumbnail size and appearance.* Standard style definitions match the style of your own template.* User stays within your site to view large images and image details. * Direct buy option at the results page with your affiliate link.* Show or hide large, friendly "call to action" buy buttons. * Add your own API key and your own referral ID to automatically earn money from every user who makes a Shutterstock purchase.
 
@@ -27,7 +27,7 @@ Related Links:
 
 == Screenshots ==
 
-1. Search results from Shutterstock-Images on a WordPress search results page
+1. Search results from Shutterstock Images on a WordPress search results page
 
 2. Detail page with keywords, images sizes and big call-to-action button
 
