@@ -17,16 +17,6 @@ Tested WordPress Versions: 3.1
 T O D O   List:
 -----------------------------------------------
 
-1. Creation of plugin framework with interfaces - 2 days.
-2. Creation settings page (only saving info and web page at WordPress admin panel) - 1 day
-3. Connection to API from settings page - 4 hours
-4. Frontend search page hooks, for integration of search results - 4 hours (We need to define at search.php file some elements, which is exist by default, its mean that we are know for sure that some div with specific ID is exist there, or we need to define at settings page the id of this element, otherwise its not very clear will be where is insert search images results !!! )
-5. Search requests to plugin API with diferent parameters  - 1 day
-6. Connection point 5. to point 4 - showing search results at search page. - 2 days
-7. Showing of selected image page - 2 days  (is it have to be new page or ajax showing at the same page ?)
-8. Showing search results for new shortcodes inside of posts or pages - 1 day
-
-( 1 day = 8 hours )
 
 
 Frontend on Wordpress Blog or Page
