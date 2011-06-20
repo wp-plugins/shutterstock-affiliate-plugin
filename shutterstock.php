@@ -3,7 +3,6 @@
 Plugin Name: Shutterstock Affiliate Plugin
 Plugin URI: http://www.gutewolke.com/shutterstock
 Description: The Shutterstock Affiliate Plugin is designed to help affiliates earn money by introducing new customers to Shutterstock. Use this plugin to easily show search results from Shutterstock Images on a WordPress search results page, or on any post or page within your Wordpress site. When customers follow links from those images and make a purchase at Shutterstock, you’ll earn highly competitive, 20% commissions—up to $200 per successful referral. You must be a member of the <a href="http://affiliate.shutterstock.com/" title="Shutterstock Affiliate Program" target="_blank">Shutterstock Affiliate program</a> and have a Shutterstock API key to use this plugin.
-
 Version: 1.1
 Author: Shutterstock, GuteWolke and wpdevelop
 Author URI: http://www.gutewolke.com
