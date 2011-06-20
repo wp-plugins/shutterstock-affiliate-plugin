@@ -444,7 +444,7 @@ function shutter_show_image_details( $image_id ){
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
             curl_setopt($curl, CURLOPT_USERAGENT, "Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)");
             curl_setopt($curl, CURLOPT_URL, $url);
-            curl_setopt($curl, CURLOPT_TIMEOUT, 2);
+            curl_setopt($curl, CURLOPT_TIMEOUT, 30);
             $data = split("\r\n", curl_exec($curl) ) ;
             if (isset($data[8])) $output = trim($data[8]);
             else                 $output = '';
