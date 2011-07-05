@@ -6,7 +6,7 @@ Description: The Shutterstock Affiliate Plugin is designed to help affiliates ea
 Version: 1.1
 Author: Shutterstock, GuteWolke and wpdevelop
 Author URI: http://www.gutewolke.com
-Tested WordPress Versions: 3.1
+Tested WordPress Versions: 3.2
 */
 
 

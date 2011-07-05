@@ -3,7 +3,7 @@ Contributors: Shutterstock Images, Amosnet, WPDevelop
 Donate link: http://affiliate.shutterstock.com/
 Tags: Shutterstock, Affiliate, Stock Photo, Royalty Free, Microstock, Subscription, Stock Photography, Plugin,
 Requires at least: 2.7
-Tested up to: 3.1
+Tested up to: 3.2
 Stable tag: 1.1
 
 Earn money by introducing new customers to Shutterstock. Easily show search results from Shutterstock Images on a WordPress search results page.
