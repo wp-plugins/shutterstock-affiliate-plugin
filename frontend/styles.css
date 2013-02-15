@@ -1,0 +1,338 @@
+.shutterstock_ap_active_page_color
+{
+  color: #FFFFFF;
+  background-color: #000000;
+  border-color: #000000;  
+}
+
+.shutterstock_ap_border_color
+{
+  border-color: #000000;  
+}
+
+.shutterstock_ap_button_color, .shutterstock_ap_button_color:visited
+{
+  background-color: #333333;
+  background-image: none !important;
+}
+
+.shutterstock_ap_button_color:hover
+{
+  background-color: #000000;
+  background-image: none !important;
+}
+
+.shutterstock_ap_tooltip
+{
+  display: none;
+}
+
+.shutterstock_ap_tooltip_right
+{
+  float: right;
+}
+
+.shutterstock_ap_clear
+{
+  clear: both;
+}
+
+.shutterstock_ap_price_table
+{
+  width: 100%;
+  border: #CCCCCC 1px solid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.shutterstock_ap_price_table thead th
+{
+  font-weight: bold;
+}
+
+.shutterstock_ap_price_table tbody tr.col
+{
+  background-color: #CCCCCC;
+}
+
+.shutterstock_ap_price_table td
+{
+  padding: 5px;
+}
+
+.shutterstock_ap_price_table th
+{
+  padding: 5px;
+}
+
+.shutterstock_ap_div_back_button
+{
+  text-align: left;
+}
+
+.shutterstock_ap_loader_table
+{
+  border: none !important;
+  width: auto !important;
+  border-spacing: 10px !important;
+  margin: auto auto !important;
+}
+
+.shutterstock_ap_loader_table td
+{
+  vertical-align: middle !important;
+  text-align: center !important;
+  border: none !important;  
+}
+
+.shutterstock_author {
+	clear:both;
+	margin: 5px 0px 0px 0px;
+}
+
+.shutterstock_main_container
+{	
+    margin:20px auto;    
+    text-align:center;
+    clear:both;
+}
+
+.shutterstock_main_container_widget
+{
+  text-align: center;
+  clear: both;
+}
+
+.shutterstock_sub_container {
+	margin:0 auto;
+	text-align: center;
+}
+
+.shutterstock_pages_container
+{
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    clear:both;
+    line-height:2em;
+}
+
+.shutterstock_pages_active
+{
+   padding: 2px 4px;
+   margin:0px 3px 0px 0px;
+   border-style: solid;
+   border-width: 2px;
+}
+
+.shutterstock_pages_dots
+{
+   padding: 2px 6px;
+   margin:0px 3px 0px 0px;
+   letter-spacing: 3px;
+}
+
+.shutterstock_pages_container a
+{
+   padding: 2px 4px;
+}
+
+.shutterstock_img_container {
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px;
+/*    margin:7px; */
+    padding:10px;
+    text-align:center;
+	  display: inline-block;
+    margin-bottom: 5px;
+    vertical-align: bottom;
+    /* Modify at 15.03 */
+  	/* float:left; */
+}
+
+.shutterstock_searchform {
+	margin:10px 0px;
+	padding:5px 0px;
+	text-align:center;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+}
+
+.shutterstock_img_details a, .shutterstock_author {
+  text-align: center;
+}
+
+.shutterstock_description {
+	clear: both;
+	display: inline-table;
+	height: 36px;
+	float: none;
+}
+
+.shutterstock_select {
+	
+	display: block;
+	height: 36px;
+	float: right;
+        margin-right: 10px;
+}
+
+
+.shutterstock_img_border {
+    width:auto;
+    padding:5px 0px 7px 0px;
+    margin: 0 auto;
+    margin-bottom: 4px;
+}
+
+
+.shutterstock_caption {
+    /*height:auto !important;
+    margin:0 auto -22px;
+    min-height:85px;/**/
+    height:25px;
+    margin:0 auto 5px;
+    min-height:25px;
+    overflow:hidden;
+    width:100%;
+}
+ 
+.shutterstock_buttons {
+    height: 22px;
+}
+
+.shutterstock_searchform #si {
+	font-size:16px;
+	height:24px;
+	padding:0px 0px 0px 5px;
+}
+
+#shutterstock_image-sort
+{
+  float:right;
+  height:26px;
+  margin:0 0 25px;
+  padding:0;
+  text-align:right;
+  width:400px;
+}
+
+#shutterstock_preview
+{
+	position:absolute;
+	border:1px solid #ccc;
+	background:#333;
+	padding:5px;
+	display:block;
+	color:#fff;
+  text-shadow:0 0 0;
+	z-index: 199;
+}
+
+#ajax_image_details_insert{
+    clear:both;
+}
+
+#ajax_image_details_insert .shutterstock_detail_table th{
+    font-size:18px;
+    font-weight:bold;
+    border-bottom-width: 2px;
+	border-bottom-style: solid;
+	padding:30px 0px 0px 0px;
+}
+
+#ajax_image_details_insert .shutterstock_detail_table{
+    width:100%;
+    padding:0px;
+}
+
+#ajax_image_details_insert .shutterstock_detail_table td{
+    padding:5px;
+    border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+.shutterstock_keywords{
+    text-align:center;
+    padding:10px;
+    line-height:17px;
+    letter-spacing:1px;
+    margin:0px 0px 20px 0px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px;
+	border-style: solid;
+	border-width: 3px;
+}
+
+.shutterstock_detail-image{
+	margin:10px 0px 0px 0px;
+    text-align:center;
+}
+
+.shutterstock_buy-now {
+	margin:20px 0px 10px 0px;
+	text-align:center;
+}
+
+.shutterstock-awesome, .shutterstock-awesome:visited {
+    -moz-border-radius: 5px 5px 5px 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) !important;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5) !important;
+    /* background: url("../img/alert-overlay.png") repeat-x scroll 0 0 #111; */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25) !important;
+    color: #FFF !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    padding: 5px 10px 6px !important;
+    position: relative !important;
+    text-decoration: none !important;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25) !important;
+}
+input.shutterstock-awesome {
+	border-style:none !important;
+}
+ 
+.shutterstock-awesome:hover {
+    background-color: #222 !important;
+    color: #FFFFFF !important;
+}
+.shutterstock-awesome:active {
+    top: 1px !important;
+}
+.small.shutterstock-awesome, .small.shutterstock-awesome:visited {
+    font-size: 11px !important;
+}
+.shutterstock-awesome, .shutterstock-awesome:visited, .medium.shutterstock-awesome, .medium.shutterstock-awesome:visited {
+    font-size: 13px !important;
+    font-weight: bold !important;
+    line-height: 1 !important;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25) !important;
+}
+.large.shutterstock-awesome, .large.shutterstock-awesome:visited {
+    font-size: 14px !important;
+    padding: 8px 14px 9px !important;
+}
+
+.xlarge.shutterstock-awesome, .large.shutterstock-awesome:visited {
+    font-size: 20px !important;
+    padding: 9px 24px 10px !important;
+}
+
+.shutterstock_preview_link
+{
+  margin-top: 3px;
+}
+
+.shutterstock_custom_content
+{
+  margin-bottom: 10px;
+}
+
+.shutterstock_ap_search_logo
+{
+  position: relative;
+  top: 13px;
+  margin-left: 20px;
+  box-shadow: none !important;
+  box-radius: none !important;
+}

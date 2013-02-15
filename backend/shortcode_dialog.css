@@ -1,0 +1,27 @@
+#shutterstock_ap_shortcode_dialog
+{
+  padding: 10px;
+  display: none;
+}
+
+.sap_bd_buttonbox
+{
+  text-align: center;
+  margin: 10px;
+}
+
+.sap_bd_cancel
+{
+  margin-right: 10px;
+}
+
+.sap_bd_table
+{
+  margin: 5px;  
+}
+
+.sap_bd_table th
+{
+  width: 150px;
+  text-align: left;  
+}
