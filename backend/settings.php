@@ -145,6 +145,8 @@
                 }
                 ?>
                 </select>
+                <br />
+                <i><?php _e("ATTENTION: Enabling the cache will store additional data in your database. It's recommended to use memcache for better performance.", self::ld); ?></i>
               </td>
             </tr>
 
