@@ -85,7 +85,7 @@ class Shutterstock_AP
                   'show_logo' => 1,
                   'show_tooltip' => 0,
                   'image_results' => 0,
-                  'cache_time' => 3
+                  'cache_time' => 0
               );
     
     $this->cache_times = array(
@@ -368,7 +368,7 @@ class Shutterstock_AP
                   'show_logo' => isset($_POST['show_logo'])?$_POST['show_logo']:0,
                   'show_tooltip' => isset($_POST['show_tooltip'])?$_POST['show_tooltip']:0,
                   'image_results' => isset($_POST['image_results'])?$_POST['image_results']:0,
-                  'cache_time' => isset($_POST['cache_time'])?$_POST['cache_time']:3
+                  'cache_time' => isset($_POST['cache_time'])?$_POST['cache_time']:0
                 ));          
         echo json_encode(array('status' => 1));                        
         break;
