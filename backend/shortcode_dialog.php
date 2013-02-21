@@ -21,10 +21,9 @@
         <td>
           <select name="sap_bd_sort_order" id="sap_bd_sort_order" title="<?php esc_attr_e('Select your default sort order. The user can change this while browsing the results.', self::ld); ?>">
             <option value="0" selected><?php _e('Popular', self::ld); ?></option>
-            <option value="1"><?php _e('Newest', self::ld); ?></option>
-            <option value="2"><?php _e('Oldest', self::ld); ?></option>
-            <option value="3"><?php _e('Random', self::ld); ?></option>
-            <option value="4"><?php _e('Relevance', self::ld); ?></option>
+            <option value="1"><?php _e('New', self::ld); ?></option>
+            <option value="2"><?php _e('Random', self::ld); ?></option>
+            <option value="3"><?php _e('Relevant', self::ld); ?></option>
           </select>
         </td>
       </tr>

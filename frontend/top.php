@@ -60,10 +60,9 @@ if ($show_header)
     <label for="sap_sort_order"><?php _e('View:', self::ld); ?></label>
     <select name="sap_sort_order" class="sap_sort_order" id="sap_sort_order">
       <option value="0"<?php echo ($order == 0?' selected':''); ?>><?php _e('Popular', self::ld); ?></option>
-      <option value="1"<?php echo ($order == 1?' selected':''); ?>><?php _e('Newest', self::ld); ?></option>
-      <option value="2"<?php echo ($order == 2?' selected':''); ?>><?php _e('Oldest', self::ld); ?></option>
-      <option value="3"<?php echo ($order == 3?' selected':''); ?>><?php _e('Random', self::ld); ?></option>
-      <option value="3"<?php echo ($order == 4?' selected':''); ?>><?php _e('Relevance', self::ld); ?></option>
+      <option value="1"<?php echo ($order == 1?' selected':''); ?>><?php _e('New', self::ld); ?></option>
+      <option value="2"<?php echo ($order == 2?' selected':''); ?>><?php _e('Random', self::ld); ?></option>
+      <option value="3"<?php echo ($order == 3?' selected':''); ?>><?php _e('Relevant', self::ld); ?></option>
     </select>
   </div>
 </div>

@@ -26,14 +26,18 @@ class Shutterstock_AP_API
     $hash = md5($url);
         
     if ($cache && $this->cache_time)
+    {      
       $data = get_transient($hash);
+    }
     
     if ($data === false)
     {
       $data = json_decode($this->getData($url), true);
       
       if ($cache && $this->cache_time)
+      {
         set_transient($hash, $data, $this->cache_time);
+      }
     }
         
     return $data;

@@ -4,7 +4,7 @@ Plugin Name: Shutterstock Affiliate Plugin
 Plugin URI: http://idenio.com/plugins/shutterstock-affiliate-plugin/
 Description: The Shutterstock Affiliate Plugin is designed to help affiliates earn money by introducing new customers to Shutterstock. Use this plugin to easily show search results from Shutterstock Images on a WordPress search results page, or on any post or page within your Wordpress site. When customers follow links from those images and make a purchase at Shutterstock, you’ll earn highly competitive, 20% commissions—up to $300 on qualifying purchases. You must be a member of the <a href="http://affiliate.shutterstock.com/" title="Shutterstock Affiliate Program" target="_blank">Shutterstock Affiliate program</a> and have a Shutterstock API key to use this plugin.
 Author: Idenio GmbH for Shutterstock, Inc.
-Version: 2.0.4
+Version: 2.0.5
 Author URI: http://idenio.com/plugins/shutterstock-affiliate-plugin/
 Text Domain: shutterstock_ap
 */
@@ -18,7 +18,7 @@ class Shutterstock_AP
   const ld = "shutterstock_ap";
   
   // version of the plugin
-  const version = '2.0.4';
+  const version = '2.0.5';
   
   public $plugin_url;
   public $plugin_path;
@@ -27,7 +27,7 @@ class Shutterstock_AP
   public $loader_colors;
    
   // sort order
-  public $sort_order = array('popular', 'newest', 'oldest', 'random', 'relevance');
+  public $sort_order = array('popular', 'newest', 'random', 'relevance');
   
   // thumbnail sizes
   public $thumbnail_sizes = array(
@@ -716,7 +716,7 @@ class Shutterstock_AP
                     'safesearch' => 1,
                     'search_group' => $filter,
                     'page_number' => ceil($number_images*$page / 150) - 1
-                  );
+                  );        
         
         if ($creator_id)
           $query['submitter_id'] = (int)$creator_id;
@@ -775,7 +775,7 @@ class Shutterstock_AP
         
       $subids_str = implode('&', $subids_str);
       if ($api['affiliate_id'])
-        $main_aff_link = 'http://shutterstock.7eer.net/c/'.$api['affiliate_id'].'/43068/1305?'.$subids_str.(strlen($subids_str) > 0?'&':'').'u=';
+        $main_aff_link = 'http://shutterstock.7eer.net/c/'.$api['affiliate_id'].'/58340/1305?'.$subids_str.(strlen($subids_str) > 0?'&':'').'u=';
       else
         $main_aff_link = '';
             
@@ -795,7 +795,7 @@ class Shutterstock_AP
         $subids_str = implode('&', $subids_str);      
         
         if ($api['affiliate_id'])        
-          $item['affiliation_link'] = 'http://shutterstock.7eer.net/c/'.$api['affiliate_id'].'/43068/1305?'.$subids_str.(strlen($subids_str) > 0?'&':'').'u='.urlencode($item['web_url']);
+          $item['affiliation_link'] = 'http://shutterstock.7eer.net/c/'.$api['affiliate_id'].'/58340/1305?'.$subids_str.(strlen($subids_str) > 0?'&':'').'u='.urlencode($item['web_url']);
         else
           $item['affiliation_link'] = $item['web_url'];
 

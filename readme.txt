@@ -4,14 +4,14 @@ Donate link: http://idenio.com/plugins/shutterstock-affiliate-plugin/
 Tags: Shutterstock, Affiliate, Subscription,Stock Photo, Royalty Free, Microstock, Subscription, Stock Photography, Plugin,Photography, Vector, Images
 Requires at least: 3.0
 Tested up to: 3.5.1
-Stable tag: 2.0.4
+Stable tag: 2.0.5
 
 Earn money by referring customers to Shutterstock. Easily show over 20 million search results from Shutterstock on your WordPress Page!
 
 == Description ==
 
 The Shutterstock Affiliate Plugin is designed to help affiliates earn money by introducing new customers to Shutterstock. Use this plugin to easily show image search results from Shutterstock within your WordPress site. Earn commissions when customers follow links from your images and make a purchase at Shutterstock.
-You must be a member of the Shutterstock Affiliate program and have a Shutterstock API key to use this plugin. <a href="http://affiliate.shutterstock.com/" title="Apply to Shutterstock’s Affiliate Program Today.">Apply to Shutterstock's Affiliate Program Today.</a>
+You must be a member of the Shutterstock Affiliate program and have a Shutterstock API key to use this plugin. <a href="http://affiliate.shutterstock.com/" title="Apply to Shutterstock’s Affiliate Program Today.">Apply to Shutterstock’s Affiliate Program Today.</a>
 
 = Key features =
 
@@ -73,6 +73,11 @@ A: Please check <a href="http://idenio.com/plugins/shutterstock-affiliate-plugin
 
 == Changelog ==
 
+= 2.0.5 =
+* Cache disabled by default
+* Fixed issue with search result sortation options
+* Updated affiliate links
+
 = 2.0.4 =
 * Complete rewrite from the ground up
 * Added support for the new Shutterstock affiliate program
@@ -100,8 +105,13 @@ A: Please check <a href="http://idenio.com/plugins/shutterstock-affiliate-plugin
 
 == Upgrade Notice ==
 
+= 2.0.5 =
+Please disable the cache to speed up your server. We have disabled the cache by default now. The affiliate link structure got updated. We have also fixed a little issue with the sort result sortation option.
+
 = 2.0.4 =
 We have completely rewritten the plugin from the ground up. It's now faster, has caching implemented, shows image results in Widgets and Posts via Shortcodes and will even recognize the content of your posts and show image results accordingly. We have added support for the new Shutterstock affiliate program plus additional tracking and reporting features. Shutterstock contributors can now use the plugin to show only their images in search results.
 
 = 1.1 =
 We have fixed the "Nothing Found" issue by replacing the complete API connection engine. We have added a new cool feature: You can now replace the "Nothing Found" error message with your own Shutterstock images or you can show newest/random/most popular images for severalkeyword(s).
+
+== Arbitrary section ==
