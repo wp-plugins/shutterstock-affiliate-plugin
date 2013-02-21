@@ -1,0 +1,741 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Shutterstock Affiliate Plugin\n"
+"POT-Creation-Date: 2013-02-13 13:34+0100\n"
+"PO-Revision-Date: 2013-02-13 13:34+0100\n"
+"Last-Translator: Martin Sudolsky <martin@sudolsky.com>\n"
+"Language-Team: Amos Struck & Martin Sudolsky\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__;esc_attr_e;esc_attr__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../shutterstock_ap.php:92
+msgid "Disable Cache"
+msgstr ""
+
+#: ../shutterstock_ap.php:93
+msgid "1 hour"
+msgstr ""
+
+#: ../shutterstock_ap.php:94
+msgid "12 hours"
+msgstr ""
+
+#: ../shutterstock_ap.php:95
+msgid "1 day"
+msgstr ""
+
+#: ../shutterstock_ap.php:96
+msgid "3 days"
+msgstr ""
+
+#: ../shutterstock_ap.php:97
+msgid "1 week"
+msgstr ""
+
+#: ../shutterstock_ap.php:98
+msgid "2 weeks"
+msgstr ""
+
+#: ../shutterstock_ap.php:103 ../shutterstock_ap.php:117
+#: ../shutterstock_ap.php:270 ../frontend/top.php:23
+msgid "Shutterstock"
+msgstr ""
+
+#: ../shutterstock_ap.php:104
+msgid "Dark-Green"
+msgstr ""
+
+#: ../shutterstock_ap.php:105 ../shutterstock_ap.php:118
+msgid "Light-Blue"
+msgstr ""
+
+#: ../shutterstock_ap.php:106 ../shutterstock_ap.php:119
+msgid "Deep-Blue"
+msgstr ""
+
+#: ../shutterstock_ap.php:107 ../shutterstock_ap.php:120
+msgid "Magenta"
+msgstr ""
+
+#: ../shutterstock_ap.php:108 ../shutterstock_ap.php:121
+msgid "Red"
+msgstr ""
+
+#: ../shutterstock_ap.php:109
+msgid "Orange"
+msgstr ""
+
+#: ../shutterstock_ap.php:110 ../shutterstock_ap.php:122
+msgid "Yellow"
+msgstr ""
+
+#: ../shutterstock_ap.php:111
+msgid "Dark-Grey"
+msgstr ""
+
+#: ../shutterstock_ap.php:112
+msgid "Custom Color"
+msgstr ""
+
+#: ../shutterstock_ap.php:123
+msgid "Black"
+msgstr ""
+
+#: ../shutterstock_ap.php:124
+msgid "White"
+msgstr ""
+
+#: ../shutterstock_ap.php:129
+msgid "Auto"
+msgstr ""
+
+#: ../shutterstock_ap.php:130
+msgid "English"
+msgstr ""
+
+#: ../shutterstock_ap.php:131
+msgid "French"
+msgstr ""
+
+#: ../shutterstock_ap.php:132
+msgid "German"
+msgstr ""
+
+#: ../shutterstock_ap.php:133
+msgid "Dutch"
+msgstr ""
+
+#: ../shutterstock_ap.php:134
+msgid "Spanish"
+msgstr ""
+
+#: ../shutterstock_ap.php:135
+msgid "Italian"
+msgstr ""
+
+#: ../shutterstock_ap.php:136
+msgid "Portuguese"
+msgstr ""
+
+#: ../shutterstock_ap.php:137
+msgid "Japanese"
+msgstr ""
+
+#: ../shutterstock_ap.php:138
+msgid "Russian"
+msgstr ""
+
+#: ../shutterstock_ap.php:139
+msgid "Chinese"
+msgstr ""
+
+#: ../shutterstock_ap.php:255
+msgid "Add Shutterstock Shortcode"
+msgstr ""
+
+#: ../shutterstock_ap.php:256
+msgid "Shutterstock AP shortcode dialog"
+msgstr ""
+
+#: ../shutterstock_ap.php:293 ../backend/settings.php:99
+#: ../backend/settings.php:356
+msgid "Save"
+msgstr ""
+
+#: ../shutterstock_ap.php:294
+msgid "Saving"
+msgstr ""
+
+#: ../shutterstock_ap_widget.php:11
+msgid "Shutterstock Widget"
+msgstr ""
+
+#: ../shutterstock_ap_widget.php:12
+msgid "Shutterstock Affiliate Plugin - Widget"
+msgstr ""
+
+#: ../backend/header.php:3
+msgid "Shutterstock Affiliate Plugin"
+msgstr ""
+
+#: ../backend/settings.php:4 ../backend/settings.php:18
+#: ../backend/settings.php:30 ../backend/settings.php:50
+#: ../backend/settings.php:106 ../backend/settings.php:151
+msgid "Click to toggle"
+msgstr ""
+
+#: ../backend/settings.php:5
+msgid "Help"
+msgstr ""
+
+#: ../backend/settings.php:7
+msgid ""
+"<p>Do you need help to get this plugin works?</p>\n"
+"          <p><strong>Please check following resources: </strong></p>\n"
+"          <p>- Visit the <a href=\"http://idenio.com/plugins/shutterstock-"
+"affiliate-plugin/\" target=\"_blank\">Shutterstock WordPress Plugin "
+"Website<br />\n"
+"          </a>- Check the <a href=\"http://idenio.com/plugins/shutterstock-"
+"affiliate-plugin/installation\" target=\"_blank\">detailed installation "
+"instruction<br />\n"
+"          </a>- See <a href=\"http://idenio.com/plugins/shutterstock-"
+"affiliate-plugin/how-it-works\" target=\"_blank\">how the plugin works<br /"
+">\n"
+"          </a>- Find a solution <a href=\"http://idenio.com/plugins/"
+"shutterstock-affiliate-plugin/faqs\" target=\"_blank\">in the FAQs<br />\n"
+"          </a>- Finally <a href=\"http://idenio.com/plugins/shutterstock-"
+"affiliate-plugin/contact-support\" target=\"_blank\">contact the support "
+"team</a></p>"
+msgstr ""
+
+#: ../backend/settings.php:19
+msgid "Output of results"
+msgstr ""
+
+#: ../backend/settings.php:23
+msgid ""
+"Add a existing \"div-container id\" from your search.php. Or alternatively "
+"add following php code: &lt;?php do_action('shutterstock_search'); ?&gt; "
+"into your search.php where you want to display the images."
+msgstr ""
+
+#: ../backend/settings.php:31
+msgid "Did you know ?"
+msgstr ""
+
+#: ../backend/settings.php:33
+msgid ""
+"<p>You can add Shutterstock images into every post or page on your \n"
+"          WordPress Blog, not just on the search results page.</p>\n"
+"          <p><strong>How do i add images into posts or pages?</strong></p>\n"
+"          <p>It is very easy, all you need to do is to add the following "
+"shortcode into the place \n"
+"          where you want to have the images results:<br /><br />\n"
+"          <center>[shutterstock keywords=\"dog cat\"]</center><br /><br />\n"
+"          Now replace the \"dog cat\" with the keyword(s) you want. \n"
+"          Just keep in mind that the images will get pulled in real time "
+"from Shutterstock, \n"
+"          so it may slow down the post or page where you are using it at.</"
+"p>\n"
+"          "
+msgstr ""
+
+#: ../backend/settings.php:51
+msgid "Shutterstock API and Affiliate Settings"
+msgstr ""
+
+#: ../backend/settings.php:55
+msgid "API username"
+msgstr ""
+
+#: ../backend/settings.php:57
+msgid "Enter your Shutterstock API username."
+msgstr ""
+
+#: ../backend/settings.php:61
+msgid "API key"
+msgstr ""
+
+#: ../backend/settings.php:63
+msgid "Enter your Shutterstock API key."
+msgstr ""
+
+#: ../backend/settings.php:67
+msgid "Affiliate ID"
+msgstr ""
+
+#: ../backend/settings.php:69
+msgid "Enter your Affiliate ID from Shutterstock."
+msgstr ""
+
+#: ../backend/settings.php:73
+msgid "SubID 1"
+msgstr ""
+
+#: ../backend/settings.php:79
+msgid "SubID 2"
+msgstr ""
+
+#: ../backend/settings.php:85
+msgid "SubID 3"
+msgstr ""
+
+#: ../backend/settings.php:92
+#, php-format
+msgid ""
+"You can use marks that will be replaced: %s - domain name, %s - searched "
+"text, %s - image ID"
+msgstr ""
+
+#: ../backend/settings.php:107
+msgid "Implementation Settings"
+msgstr ""
+
+#: ../backend/settings.php:111
+msgid "Language"
+msgstr ""
+
+#: ../backend/settings.php:113
+msgid "Language of the search result."
+msgstr ""
+
+#: ../backend/settings.php:128
+msgid "Show Images"
+msgstr ""
+
+#: ../backend/settings.php:130
+msgid ""
+"This defines where in the search results page the Shutterstock images are "
+"\"injected\"."
+msgstr ""
+
+#: ../backend/settings.php:131
+msgid "Replace"
+msgstr ""
+
+#: ../backend/settings.php:132 ../backend/settings.php:334
+msgid "Above"
+msgstr ""
+
+#: ../backend/settings.php:133 ../backend/settings.php:335
+msgid "Below"
+msgstr ""
+
+#: ../backend/settings.php:135
+msgid "the search results"
+msgstr ""
+
+#: ../backend/settings.php:140
+msgid "Show images in \"div\" with ID"
+msgstr ""
+
+#: ../backend/settings.php:152
+msgid "Search Result Settings"
+msgstr ""
+
+#: ../backend/settings.php:156
+msgid "Show only images from creator ID"
+msgstr ""
+
+#: ../backend/settings.php:158 ../backend/shortcode_dialog.php:16
+#: ../backend/widget_form.php:16
+msgid ""
+"Simply leave blank if you don't want restrict search result by a creator ID."
+msgstr ""
+
+#: ../backend/settings.php:163
+msgid "Cache Time"
+msgstr ""
+
+#: ../backend/settings.php:180
+msgid "Select your default sort order"
+msgstr ""
+
+#: ../backend/settings.php:182 ../backend/shortcode_dialog.php:22
+msgid ""
+"Select your default sort order. The user can change this while browsing the "
+"results."
+msgstr ""
+
+#: ../backend/settings.php:183 ../backend/shortcode_dialog.php:23
+#: ../frontend/top.php:62
+msgid "Popular"
+msgstr ""
+
+#: ../backend/settings.php:184 ../backend/shortcode_dialog.php:24
+#: ../frontend/top.php:63
+msgid "Newest"
+msgstr ""
+
+#: ../backend/settings.php:185 ../backend/shortcode_dialog.php:25
+#: ../frontend/top.php:64
+msgid "Oldest"
+msgstr ""
+
+#: ../backend/settings.php:186 ../backend/shortcode_dialog.php:26
+#: ../frontend/top.php:65
+msgid "Random"
+msgstr ""
+
+#: ../backend/settings.php:187 ../backend/shortcode_dialog.php:27
+#: ../frontend/top.php:66
+msgid "Relevance"
+msgstr ""
+
+#: ../backend/settings.php:193
+msgid "Show following image types"
+msgstr ""
+
+#: ../backend/settings.php:196 ../backend/shortcode_dialog.php:36
+msgid "All"
+msgstr ""
+
+#: ../backend/settings.php:197 ../backend/shortcode_dialog.php:37
+msgid "Photos"
+msgstr ""
+
+#: ../backend/settings.php:198 ../backend/shortcode_dialog.php:38
+msgid "Illustrations"
+msgstr ""
+
+#: ../backend/settings.php:199 ../backend/shortcode_dialog.php:39
+msgid "Vectors"
+msgstr ""
+
+#: ../backend/settings.php:205
+msgid "Number of images per page"
+msgstr ""
+
+#: ../backend/settings.php:207 ../backend/shortcode_dialog.php:47
+#: ../backend/widget_form.php:21
+msgid "Select the maximum numbers of images per page."
+msgstr ""
+
+#: ../backend/settings.php:208 ../backend/shortcode_dialog.php:50
+msgid "3"
+msgstr ""
+
+#: ../backend/settings.php:209 ../backend/shortcode_dialog.php:51
+msgid "5"
+msgstr ""
+
+#: ../backend/settings.php:210 ../backend/shortcode_dialog.php:52
+msgid "6"
+msgstr ""
+
+#: ../backend/settings.php:211 ../backend/shortcode_dialog.php:53
+msgid "10"
+msgstr ""
+
+#: ../backend/settings.php:212 ../backend/shortcode_dialog.php:54
+msgid "15"
+msgstr ""
+
+#: ../backend/settings.php:213 ../backend/shortcode_dialog.php:55
+msgid "25"
+msgstr ""
+
+#: ../backend/settings.php:214 ../backend/shortcode_dialog.php:56
+msgid "50"
+msgstr ""
+
+#: ../backend/settings.php:215 ../backend/shortcode_dialog.php:57
+msgid "75"
+msgstr ""
+
+#: ../backend/settings.php:221 ../backend/shortcode_dialog.php:63
+msgid "Thumbnails size"
+msgstr ""
+
+#: ../backend/settings.php:223 ../backend/shortcode_dialog.php:65
+msgid "Select the size of the thumbnail you want to show."
+msgstr ""
+
+#: ../backend/settings.php:224 ../backend/shortcode_dialog.php:66
+msgid "Small"
+msgstr ""
+
+#: ../backend/settings.php:225 ../backend/shortcode_dialog.php:67
+msgid "Large"
+msgstr ""
+
+#: ../backend/settings.php:231 ../backend/shortcode_dialog.php:73
+msgid "Show image detail"
+msgstr ""
+
+#: ../backend/settings.php:233 ../backend/shortcode_dialog.php:75
+msgid "Select where it can show detailed content about image."
+msgstr ""
+
+#: ../backend/settings.php:234 ../backend/shortcode_dialog.php:76
+msgid "at shutterstock.com"
+msgstr ""
+
+#: ../backend/settings.php:235 ../backend/shortcode_dialog.php:77
+msgid "on page"
+msgstr ""
+
+#: ../backend/settings.php:236 ../backend/shortcode_dialog.php:78
+msgid "via popup window"
+msgstr ""
+
+#: ../backend/settings.php:242 ../backend/shortcode_dialog.php:84
+#: ../backend/widget_form.php:35
+msgid "Image Results from Plugin Search"
+msgstr ""
+
+#: ../backend/settings.php:245 ../backend/shortcode_dialog.php:87
+#: ../backend/widget_form.php:37
+msgid "Show only Images"
+msgstr ""
+
+#: ../backend/settings.php:246 ../backend/shortcode_dialog.php:88
+#: ../backend/widget_form.php:38
+msgid "Show Posts and Images"
+msgstr ""
+
+#: ../backend/settings.php:252 ../backend/shortcode_dialog.php:94
+msgid "Search result options"
+msgstr ""
+
+#: ../backend/settings.php:254 ../backend/shortcode_dialog.php:96
+msgid "Show Shutterstock logo on image results page"
+msgstr ""
+
+#: ../backend/settings.php:255 ../backend/shortcode_dialog.php:97
+msgid "Show large preview when mouseover image"
+msgstr ""
+
+#: ../backend/settings.php:256 ../backend/shortcode_dialog.php:98
+msgid "Show extra search field on image results page"
+msgstr ""
+
+#: ../backend/settings.php:257
+msgid "Show boxes around the images the search results"
+msgstr ""
+
+#: ../backend/settings.php:258 ../backend/shortcode_dialog.php:99
+msgid "Show header at the search results"
+msgstr ""
+
+#: ../backend/settings.php:259 ../backend/shortcode_dialog.php:100
+msgid "Should it scroll down to results automatically?"
+msgstr ""
+
+#: ../backend/settings.php:260 ../backend/shortcode_dialog.php:102
+msgid ""
+"Swap keywords and custom content - show keywords below the custom content"
+msgstr ""
+
+#: ../backend/settings.php:261 ../backend/shortcode_dialog.php:103
+msgid "Show keywords below the image detail"
+msgstr ""
+
+#: ../backend/settings.php:262 ../backend/shortcode_dialog.php:104
+msgid "Show custom content below the image detail"
+msgstr ""
+
+#: ../backend/settings.php:267
+msgid "If nothing is found"
+msgstr ""
+
+#: ../backend/settings.php:269
+msgid "Select what to show if nothing is found."
+msgstr ""
+
+#: ../backend/settings.php:270
+msgid "Show nothing"
+msgstr ""
+
+#: ../backend/settings.php:271
+msgid "Show images"
+msgstr ""
+
+#: ../backend/settings.php:273
+msgid "Keyword(s)"
+msgstr ""
+
+#: ../backend/settings.php:273
+msgid "You can write comma separated keywords."
+msgstr ""
+
+#: ../backend/settings.php:278
+msgid "Open Links to Shutterstock"
+msgstr ""
+
+#: ../backend/settings.php:280
+msgid "Select where the links to Shutterstock should open."
+msgstr ""
+
+#: ../backend/settings.php:281
+msgid "in same window"
+msgstr ""
+
+#: ../backend/settings.php:282
+msgid "in a new window"
+msgstr ""
+
+#: ../backend/settings.php:288
+msgid "Theme color"
+msgstr ""
+
+#: ../backend/settings.php:290
+msgid "Select a color for the buttons at your search result."
+msgstr ""
+
+#: ../backend/settings.php:309
+msgid "Loader color"
+msgstr ""
+
+#: ../backend/settings.php:311
+msgid "Select a color for the loader."
+msgstr ""
+
+#: ../backend/settings.php:329 ../backend/settings.php:331
+msgid "Loader Text"
+msgstr ""
+
+#: ../backend/settings.php:332
+msgid "Position"
+msgstr ""
+
+#: ../backend/settings.php:333
+msgid "Position of loader text according to loader image."
+msgstr ""
+
+#: ../backend/settings.php:336
+msgid "Left"
+msgstr ""
+
+#: ../backend/settings.php:337
+msgid "Right"
+msgstr ""
+
+#: ../backend/settings.php:343
+msgid "Custom content"
+msgstr ""
+
+#: ../backend/shortcode_dialog.php:5 ../backend/widget_form.php:6
+msgid "Keywords"
+msgstr ""
+
+#: ../backend/shortcode_dialog.php:7
+msgid "Leave blank for auto search by words in the post."
+msgstr ""
+
+#: ../backend/shortcode_dialog.php:10 ../backend/widget_form.php:10
+msgid "Search keywords in the content"
+msgstr ""
+
+#: ../backend/shortcode_dialog.php:15
+msgid "Result by creator ID"
+msgstr ""
+
+#: ../backend/shortcode_dialog.php:20
+msgid "Default sort order"
+msgstr ""
+
+#: ../backend/shortcode_dialog.php:33
+msgid "Show image types"
+msgstr ""
+
+#: ../backend/shortcode_dialog.php:45 ../backend/widget_form.php:20
+msgid "Images per page"
+msgstr ""
+
+#: ../backend/shortcode_dialog.php:48
+msgid "1"
+msgstr ""
+
+#: ../backend/shortcode_dialog.php:49
+msgid "2"
+msgstr ""
+
+#: ../backend/shortcode_dialog.php:101
+msgid "Show pagination"
+msgstr ""
+
+#: ../backend/shortcode_dialog.php:105
+msgid "Show link with more results"
+msgstr ""
+
+#: ../backend/shortcode_dialog.php:112
+msgid "Cancel"
+msgstr ""
+
+#: ../backend/shortcode_dialog.php:113
+msgid "Insert"
+msgstr ""
+
+#: ../backend/widget_form.php:2
+msgid "Title"
+msgstr ""
+
+#: ../backend/widget_form.php:7
+msgid "Search these keywords"
+msgstr ""
+
+#: ../backend/widget_form.php:15
+msgid "Show result by creator ID"
+msgstr ""
+
+#: ../backend/widget_form.php:44
+msgid "Show Shutterstock logo"
+msgstr ""
+
+#: ../backend/widget_form.php:47
+msgid "Show preview on image hover"
+msgstr ""
+
+#: ../backend/widget_form.php:50
+msgid "Show search field"
+msgstr ""
+
+#: ../backend/widget_form.php:53
+msgid "Show header"
+msgstr ""
+
+#: ../backend/widget_form.php:56
+msgid "Show paging"
+msgstr ""
+
+#: ../backend/widget_form.php:59
+msgid "Show link more results"
+msgstr ""
+
+#: ../frontend/bottom.php:6
+msgid "Show more results"
+msgstr ""
+
+#: ../frontend/detail.php:3 ../frontend/detail.php:31
+msgid "&laquo; Back"
+msgstr ""
+
+#: ../frontend/detail_keywords.php:1
+msgid "Keywords:"
+msgstr ""
+
+#: ../frontend/error.php:1
+msgid "We have problems to search something."
+msgstr ""
+
+#: ../frontend/paging.php:5
+msgid "&laquo; Prev"
+msgstr ""
+
+#: ../frontend/paging.php:85
+msgid "Next &raquo;"
+msgstr ""
+
+#: ../frontend/top.php:6
+msgid "Found:"
+msgstr ""
+
+#: ../frontend/top.php:10
+msgid "Stock Photos, Illustrations, Vectors at"
+msgstr ""
+
+#: ../frontend/top.php:12
+msgid "Stock Photos at"
+msgstr ""
+
+#: ../frontend/top.php:14
+msgid "Ilustrations at"
+msgstr ""
+
+#: ../frontend/top.php:16
+msgid "Vectors at"
+msgstr ""
+
+#: ../frontend/top.php:39
+msgid "Search"
+msgstr ""
+
+#: ../frontend/top.php:60
+msgid "View:"
+msgstr ""

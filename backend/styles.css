@@ -1,0 +1,92 @@
+#icon-shutterstock_ap
+{
+  background: transparent url('images/screen-icon.png') no-repeat 0px 0px;
+}
+
+select
+{
+  width: 170px;
+}
+
+.sap_closed .inside
+{
+  display: none;
+}
+
+.hndle
+{
+  cursor: default !important;
+}
+
+.sap_clear
+{
+  clear: both;
+}
+
+.sap_save_area
+{
+  float: right;
+}
+
+.sap_save_loader
+{
+  width: 15px;
+  height: 15px;
+  margin-right: 3px;
+}
+
+.sap_save_loader img
+{
+  display: none;
+  position: relative;
+  top: 3px;  
+}
+
+.sap_input_green
+{
+  background-color: #77FF8E !important;
+}
+
+.sap_input_red
+{
+  background-color: #FF7777 !important;
+}
+
+#sap_nothing_found_option_k
+{
+  margin-left: 10px;
+}
+
+.miniColors-trigger
+{
+  display: none !important;
+}
+
+#sap_loader_color_img
+{
+  position: relative;
+  top: 10px;
+  margin-left: 10px;
+}
+
+.sap_custom_content
+{
+}
+
+.sap_custom_content .wp-editor-container
+{
+  background-color: #fff;
+}
+
+
+
+@media print,
+  (-o-min-device-pixel-ratio: 5/4),
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 120dpi)
+{ 
+  #icon-shutterstock_ap
+  {
+    background: transparent url('images/screen-icon-hi.png') no-repeat 0px 0px;
+  }  
+}

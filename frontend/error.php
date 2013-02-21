@@ -1,0 +1,1 @@
+<h2><?php _e('We have problems to search something.', self::ld); ?></h2>
