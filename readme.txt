@@ -11,7 +11,7 @@ Earn money by referring customers to Shutterstock. Easily show over 20 million s
 == Description ==
 
 The Shutterstock Affiliate Plugin is designed to help affiliates earn money by introducing new customers to Shutterstock. Use this plugin to easily show image search results from Shutterstock within your WordPress site. Earn commissions when customers follow links from your images and make a purchase at Shutterstock.
-You must be a member of the Shutterstock Affiliate program and have a Shutterstock API key to use this plugin. <a href="http://affiliate.shutterstock.com/" title="Apply to Shutterstock’s Affiliate Program Today.">Apply to Shutterstock’s Affiliate Program Today.</a>
+You must be a member of the Shutterstock Affiliate program and have a Shutterstock API key to use this plugin. <a href="http://affiliate.shutterstock.com/" title="Apply to Shutterstock's Affiliate Program Today.">Apply to Shutterstock's Affiliate Program Today.</a>
 
 = Key features =
 
