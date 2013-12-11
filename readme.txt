@@ -3,15 +3,15 @@ Contributors: Amosnet, martinsuly, kevin.cooper.8
 Donate link: http://idenio.com/plugins/shutterstock-affiliate-plugin/
 Tags: Shutterstock, Affiliate, Subscription,Stock Photo, Royalty Free, Microstock, Subscription, Stock Photography, Plugin,Photography, Vector, Images
 Requires at least: 3.0
-Tested up to: 3.5.1
-Stable tag: 2.0.5
+Tested up to: 3.7.1
+Stable tag: 2.0.6
 
 Earn money by referring customers to Shutterstock. Easily show over 20 million search results from Shutterstock on your WordPress Page!
 
 == Description ==
 
 The Shutterstock Affiliate Plugin is designed to help affiliates earn money by introducing new customers to Shutterstock. Use this plugin to easily show image search results from Shutterstock within your WordPress site. Earn commissions when customers follow links from your images and make a purchase at Shutterstock.
-You must be a member of the Shutterstock Affiliate program and have a Shutterstock API key to use this plugin. <a href="http://affiliate.shutterstock.com/" title="Apply to Shutterstock's Affiliate Program Today.">Apply to Shutterstock's Affiliate Program Today.</a>
+You must be a member of the Shutterstock Affiliate program and have a Shutterstock API key to use this plugin. <a href="http://affiliate.shutterstock.com/" title="Apply to Shutterstock's Affiliate Program Today.">Apply to Shutterstock's Affiliate Program Today.</a>
 
 = Key features =
 
@@ -26,6 +26,11 @@ The Shutterstock Affiliate Plugin is designed to help affiliates earn money by i
 
 * <a href="http://affiliate.shutterstock.com/" title="Shutterstock">Shutterstock</a>
 * <a href="http://idenio.com/plugins/shutterstock-affiliate-plugin/" title="Support and FAQ">Support and FAQ</a>
+
+= Translators =
+
+* Spanish - Maria Ramos (http://www.webhostinghub.com)
+
 
 == Installation ==
 
@@ -72,6 +77,10 @@ A: Please check <a href="http://idenio.com/plugins/shutterstock-affiliate-plugin
 10. Customizable appearance settings including filter to show only images of particular Shutterstock contributor
 
 == Changelog ==
+
+= 2.0.6 =
+* Added Spanish translation (thanks to Maria Ramos from http://www.webhostinghub.com)
+* Tested with Wordpress 3.7.1
 
 = 2.0.5 =
 * Cache disabled by default
