@@ -3,7 +3,7 @@ Contributors: Amosnet, martinsuly, kevin.cooper.8
 Donate link: http://idenio.com/plugins/shutterstock-affiliate-plugin/
 Tags: Shutterstock, Affiliate, Subscription,Stock Photo, Royalty Free, Microstock, Subscription, Stock Photography, Plugin,Photography, Vector, Images
 Requires at least: 3.0
-Tested up to: 3.7.1
+Tested up to: 3.9
 Stable tag: 2.0.6
 
 Earn money by referring customers to Shutterstock. Easily show over 20 million search results from Shutterstock on your WordPress Page!
